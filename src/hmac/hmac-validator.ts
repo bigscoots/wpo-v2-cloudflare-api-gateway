@@ -106,7 +106,7 @@ export async function validateHMAC(request: Request, env: Env): Promise<HMACPayl
       throw new Error('HMAC signature verification failed');
     }
     console.log(`✅ [HMAC-VALIDATE] Step 7 complete: Signature verified`);
-    console.log(`✅ CI Auto Build Test`);
+    console.log(`✅ CI Auto Build Test Part 2`);
 
     console.log(`🎉 [HMAC-VALIDATE] All steps complete - HMAC validation successful`);
     console.log(`✅ [HMAC] Request validated for key: ${hmacHeaders.keyId}, org: ${keyData.orgId}`);
